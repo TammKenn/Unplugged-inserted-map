@@ -203,7 +203,7 @@
     font-size: 1.125em;
  
   }
-  
+
   footer {
     display: flex;
     flex-direction: column;
@@ -245,17 +245,26 @@
   /* Hero Area */
   
   .hero-area {
-    background: url('../c:\Responsive Website Project\Unplugged Project\unplugged-retreat.jpg');
+    background: url('file:///C:/Responsive%Website%Project/Unplugged%Project/unplugged-retreat.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 500px;
     display: flex;
     justify-content: center;
-    background: url('../c:\Responsive Website Project\Unplugged Project\unplugged-retreat.jpg') center no-repeat #333;
     
   }
 
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+    }
   
   .hero-area h1 {
     font-size: 2.25em;
@@ -301,15 +310,23 @@
   /* Features */
   
   .features {
-    background: url('../img/unplugged-retreat-features.jpg');
+    background: url('C:/Responsive%Website%Project/Unplugged%Project/unplugged-retreat-features.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    min-height: 500px;
     display: flex;
     justify-content: center;
+    background: url('..C:\Responsive Website Project\Unplugged Project\unplugged-retreat-features.jpg') center no-repeat #333;
   }
   
   .features h2 {
     margin-bottom: 60px;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
   
   .features article {
